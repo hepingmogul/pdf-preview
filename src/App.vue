@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import pdfPreview from './components/PdfPreview.vue'
+import pdfPreview from './components/PdfLaypage.vue'
 
 export default {
   name: 'app',
@@ -14,7 +14,7 @@ export default {
   },
   data () {
     return {
-      url: '/static/pdf.pdf'
+      url: '/static/EUNOMIA2022年欧洲PET市场报告英文版.pdf'
     }
   }
 }
@@ -27,5 +27,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  width: 700px;
 }
 </style>
